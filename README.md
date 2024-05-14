@@ -10,10 +10,30 @@ Logic Diagram :
 Logic Gates:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
+```
+# CODE
+
+module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+input a,b;
+output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+and(andgate,a,b);
+or(orgate,a,b);
+xor(xorgate,a,b);
+nand(nandgate,a,b);  
+nor(norgate,a,b);
+xnor(xnorgate,a,b);
+not(notgate,a);
+endmodule
+```
+# OUTPUT
+
+<img width="838" alt="320503583-671893c0-3f17-4f78-a7de-7dcd11c016bb" src="https://github.com/priyaviswa13/VLSI-LAB-EXP-1/assets/166889783/55ba8a3c-fbd3-4993-988a-13fc1c433822">
 
 Half Adder:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
+```
+# CODE
 
 
 Full adder:
