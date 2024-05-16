@@ -45,7 +45,7 @@ endmodule
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
-...
+```
 # CODE
 
 module HalfAdder(a,b,sum,carry);
@@ -54,7 +54,7 @@ output sum,carry;
 xor (sum,a,b);
 and (carry,a,b);
 endmodule
-...
+```
 
 # OUTPUT:
 <img width="809" alt="320504329-3bf4e32e-680a-46f0-92ac-2ccdd182bf07" src="https://github.com/priyaviswa13/VLSI-LAB-EXP-1/assets/166889783/2fac0720-5b6f-4190-ae17-23804f0134a5">
