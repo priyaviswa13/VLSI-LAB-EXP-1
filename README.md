@@ -45,7 +45,7 @@ endmodule
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
-```
+...
 # CODE
 
 module HalfAdder(a,b,sum,carry);
@@ -61,7 +61,7 @@ endmodule
 
 
 
-Full adder:
+# Full adder:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
